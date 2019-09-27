@@ -1,7 +1,13 @@
-# Hi1
-#include<stdio.h>
-int main()
-{
-    printf("hello world!");  
+# creat a function to caculate two numers ;
+#include<iostream>
+int main
+  {
+    std::cout<<"Enter two numbers:\n"<<std::endl;
+    int v1=0,v2=0;
+    std::cin>>v1>>v2;
+    std::cout<<"The sum of"<<v1<<"and "<<v2
+             <<"is "<<v1+v2<<std::endl;
     return 0;
-}
+    
+  }
+    
